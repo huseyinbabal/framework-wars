@@ -1,0 +1,24 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+spring-jvm built in 54s, 170 MB
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+spring-native built in 392s, 79 MB
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+quarkus-jvm built in 49s, 159 MB
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+quarkus-native built in 245s, 57 MB
+Loaded image: sbq-spring-jvm:latest
+Loaded image: sbq-spring-native:latest
+Loaded image: sbq-quarkus-jvm:latest
+Loaded image: sbq-quarkus-native:latest

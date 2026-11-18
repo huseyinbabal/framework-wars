@@ -1,0 +1,31 @@
+time="2026-11-17T17:07:27Z" level=warning msg="Legacy env var detected, use --features or K6_FEATURES instead" env=K6_PROMETHEUS_RW_TREND_AS_NATIVE_HISTOGRAM feature=native-histograms lifecycle=deprecated_alias source=env_legacy_alias
+time="2026-11-17T17:07:27Z" level=info msg="Experimental feature enabled" feature=native-histograms lifecycle=experimental
+time="2026-11-17T17:07:27Z" level=warning msg="experimental-prometheus-rw output has been deprecated and is planned for removal in k6 v3. We recommend using opentelemetry for all your metrics output."
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 1044383 3481.077254/s
+    checks_succeeded...: 100.00% 1044383 out of 1044383
+    checks_failed......: 0.00%   0 out of 1044383
+
+    ✓ ok
+
+    HTTP
+    http_req_duration..............: avg=28.63ms p(50)=12.17ms p(95)=98.27ms p(99)=152.62ms max=849.58ms
+      { expected_response:true }...: avg=28.63ms p(50)=12.17ms p(95)=98.27ms p(99)=152.62ms max=849.58ms
+    http_req_failed................: 0.00%   0 out of 1044383
+    http_reqs......................: 1044383 3481.077254/s
+
+    EXECUTION
+    iteration_duration.............: avg=28.71ms p(50)=12.26ms p(95)=98.36ms p(99)=152.72ms max=849.65ms
+    iterations.....................: 1044383 3481.077254/s
+    vus............................: 100     min=100          max=100
+    vus_max........................: 100     min=100          max=100
+
+    NETWORK
+    data_received..................: 1.7 GB  5.8 MB/s
+    data_sent......................: 144 MB  480 kB/s
+
+
+

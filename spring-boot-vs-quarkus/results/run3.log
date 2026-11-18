@@ -1,0 +1,10 @@
+{"variant":"spring-jvm","first_ok_ms":15988,"framework_started_s":13.197,"mem_after_start":"508.2MiB"}
+spring-jvm warm {"rps":1693,"failed":0}
+spring-jvm read {"rps":3599,"p95":92.7059261,"p99":143.75689615999997,"failed":0} mem=498.3MiB
+spring-jvm write {"rps":3343,"p95":104.78922559999995,"p99":160.6097223999997,"failed":0} mem=499.3MiB
+spring-jvm mixed {"rps":3737,"p95":89.75830309999996,"p99":137.56403547,"failed":0} mem=500.8MiB
+{"variant":"quarkus-jvm","first_ok_ms":6908,"framework_started_s":5.321,"mem_after_start":"280.1MiB"}
+quarkus-jvm warm {"rps":4906,"failed":0}
+quarkus-jvm read {"rps":8016,"p95":26.03268374999999,"p99":40.34809980000013,"failed":0} mem=437.9MiB
+quarkus-jvm write {"rps":4437,"p95":43.249631799999996,"p99":60.99679968000003,"failed":0} mem=439.8MiB
+quarkus-jvm mixed {"rps":6558,"p95":32.87613829999997,"p99":50.55121173999989,"failed":0} mem=654.5MiB

@@ -1,0 +1,14 @@
+__  ____  __  _____   ___  __ ____  ______ 
+ --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+ -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+--\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+2026-11-17 18:40:20,475 INFO  [org.flywaydb.core.FlywayExecutor] (main) Database: jdbc:postgresql://10.106.0.4:5432/notes (PostgreSQL 18.7)
+2026-11-17 18:40:20,628 INFO  [org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory] (main) Schema history table "public"."flyway_schema_history" does not exist yet
+2026-11-17 18:40:20,633 INFO  [org.flywaydb.core.internal.command.DbValidate] (main) Successfully validated 1 migration (execution time 00:00.033s)
+2026-11-17 18:40:20,651 INFO  [org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory] (main) Creating Schema History table "public"."flyway_schema_history" ...
+2026-11-17 18:40:20,819 INFO  [org.flywaydb.core.internal.command.DbMigrate] (main) Current version of schema "public": << Empty Schema >>
+2026-11-17 18:40:20,837 INFO  [org.flywaydb.core.internal.command.DbMigrate] (main) Migrating schema "public" to version "1 - notes"
+2026-11-17 18:40:20,870 INFO  [org.flywaydb.core.internal.command.DbMigrate] (main) Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.011s)
+2026-11-17 18:40:22,366 INFO  [io.quarkus] (main) notes 1.0.0 on JVM (powered by Quarkus 3.40.1.2) started in 5.289s. Listening on: http://0.0.0.0:8080. Management interface listening on http://0.0.0.0:9091.
+2026-11-17 18:40:22,368 INFO  [io.quarkus] (main) Profile prod activated. 
+2026-11-17 18:40:22,368 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, flyway, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, micrometer, narayana-jta, rest, rest-jackson, smallrye-context-propagation, smallrye-health, vertx]

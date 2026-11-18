@@ -1,0 +1,7 @@
+{
+  "variant": "quarkus-native",
+  "first_ok_ms": 965,
+  "framework_started_s": 0.280,
+  "mem_after_start": "74.87MiB",
+  "mem_idle": "79.92MiB"
+}

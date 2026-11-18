@@ -1,0 +1,7 @@
+{
+  "variant": "spring-native",
+  "first_ok_ms": 1327,
+  "framework_started_s": 0.575,
+  "mem_after_start": "168.9MiB",
+  "mem_idle": "169.1MiB"
+}

@@ -1,0 +1,4 @@
+sbq-quarkus-native 216MB
+sbq-quarkus-jvm 564MB
+sbq-spring-native 299MB
+sbq-spring-jvm 586MB

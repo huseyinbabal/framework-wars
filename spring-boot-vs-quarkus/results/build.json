@@ -1,0 +1,18 @@
+{
+  "spring-jvm": {
+    "build_s": 54,
+    "image_bytes": 170306638
+  },
+  "spring-native": {
+    "build_s": 392,
+    "image_bytes": 79354235
+  },
+  "quarkus-jvm": {
+    "build_s": 49,
+    "image_bytes": 159485947
+  },
+  "quarkus-native": {
+    "build_s": 245,
+    "image_bytes": 57505610
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variant": "quarkus-jvm",
+  "first_ok_ms": 6729,
+  "framework_started_s": 5.293,
+  "mem_after_start": "267.7MiB",
+  "mem_idle": "268.8MiB"
+}

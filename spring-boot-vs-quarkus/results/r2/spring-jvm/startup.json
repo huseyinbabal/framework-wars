@@ -1,0 +1,7 @@
+{
+  "variant": "spring-jvm",
+  "first_ok_ms": 15387,
+  "framework_started_s": 12.829,
+  "mem_after_start": "491MiB",
+  "mem_idle": "492.7MiB"
+}

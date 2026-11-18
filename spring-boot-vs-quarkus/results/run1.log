@@ -1,0 +1,16 @@
+{"variant":"spring-jvm","first_ok_ms":15081,"framework_started_s":12.346,"mem_after_start":"502.4MiB"}
+spring-jvm read {"rps":1548,"p95":194.78393494999983,"p99":301.02879315999996,"failed":0} mem=486.5MiB
+spring-jvm write {"rps":2000,"p95":173.81022434999997,"p99":260.7539259,"failed":0} mem=496.7MiB
+spring-jvm mixed {"rps":3481,"p95":98.27478679999997,"p99":152.62836319999994,"failed":0} mem=507.7MiB
+{"variant":"quarkus-jvm","first_ok_ms":6729,"framework_started_s":5.293,"mem_after_start":"267.7MiB"}
+quarkus-jvm read {"rps":5959,"p95":41.820569349999964,"p99":71.81006662000019,"failed":0} mem=482.9MiB
+quarkus-jvm write {"rps":2714,"p95":75.66793,"p99":116.921722,"failed":0} mem=429.6MiB
+quarkus-jvm mixed {"rps":6435,"p95":33.353023999999984,"p99":50.99946429999987,"failed":0} mem=483.9MiB
+{"variant":"spring-native","first_ok_ms":1327,"framework_started_s":0.575,"mem_after_start":"168.9MiB"}
+spring-native read {"rps":2367,"p95":129.1624645,"p99":192.08593100000056,"failed":0} mem=167MiB
+spring-native write {"rps":2136,"p95":159.629888,"p99":234.99469640000098,"failed":0} mem=176MiB
+spring-native mixed {"rps":2278,"p95":138.87960159999994,"p99":203.74422672000003,"failed":0} mem=171.2MiB
+{"variant":"quarkus-native","first_ok_ms":965,"framework_started_s":0.280,"mem_after_start":"74.87MiB"}
+quarkus-native read {"rps":4955,"p95":40.58402329999998,"p99":61.39157827999986,"failed":0} mem=108.5MiB
+quarkus-native write {"rps":2801,"p95":66.42370469999997,"p99":91.85028790000004,"failed":0} mem=112.4MiB
+quarkus-native mixed {"rps":4114,"p95":50.90334719999996,"p99":76.46578500000005,"failed":0} mem=112.7MiB
